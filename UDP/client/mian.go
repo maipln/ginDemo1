@@ -5,6 +5,7 @@ import (
 	"net"
 )
 
+//master
 func main() {
 	socket, err := net.DialUDP("udp", nil, &net.UDPAddr{
 		IP:   net.IPv4(0, 0, 0, 0),
